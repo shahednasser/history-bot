@@ -1,0 +1,31 @@
+{
+  "name": "history-bot",
+  "version": "1.0.0",
+  "description": "Twitter Bot that tweets what happened on this day in history",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahednasser/history-bot.git"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "history",
+    "tutorial"
+  ],
+  "author": "Shahed Nasser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shahednasser/history-bot/issues"
+  },
+  "homepage": "https://github.com/shahednasser/history-bot#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "twitter-api-client": "^1.3.2"
+  }
+}
