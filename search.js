@@ -9,7 +9,7 @@ twitterClient.tweets.search({
             twitterClient.tweets.statusesRetweetById({
                 id: status.id_str
             })
-            .then ((resp) => console.log(resp))
+            .then ((resp) => console.log(`Retweeted tweet #${status.id}`))
             .catch ((err) => console.error(err))
         })
     }
